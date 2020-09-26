@@ -1,5 +1,14 @@
-# ShinyApplication
-Developing Data Products - Course Project Week 4
+---
+title: "about"
+author: "Ilda Dreoni"
+date: "26/09/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 
 # AirQuality
 Shiny application allowing the manipulation of the Airquality dataset from the datasets package to do basic data exploration.
@@ -32,5 +41,3 @@ You can select specific months or plot the data for all the sample.
 The plots include a linear regression model fitted using OLS to demonstrate the relationship.
 
 The sidebars allow you to exclude more extreme data. The initial position represents the interval between 25% and 75% percentile
-
-
