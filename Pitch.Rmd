@@ -1,0 +1,55 @@
+---
+title: "Shiny App Pitch - Air Quality dataset exploratory analysis"
+subtitle: "Presentation of shiny app developed for the course project of the Developing Data Products course"
+author: "Ilda Dreoni"
+date: "26/09/2020"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Synposis
+========================================================
+
+This applications allows the user to explore the Air Quality Dataset from the datasets package.
+
+Capabilities
+
+- Plotting histograms of main variables of interest
+- Plot scatter plot and linear regression lines
+
+The Dataset
+========================================================
+
+The app uses airquality dataset available in base package in R.
+
+This is a data set collected and used to measure the air quality in New York State.
+
+Information about the dataset:
+
+```{r}
+data(airquality)
+head(airquality)
+```
+
+
+The variables
+========================================================
+The application analyses the following variables:
+
+* Ozone
+* Solar Radiation
+* Wind
+
+In the first tab plots the histograms of the three variables and allow the user to choose the number of bins
+
+In the second tab it plots the Wind and Solar Radiation against Ozone values and it fits a linear regression model. The user can select for which month to estimate the model and whether include all points or exclude the more extreme.
+
+Shiny Air Pollution App
+========================================================
+
+Shiny https://ildadreoni.shinyapps.io/AirQuality_app/
+
+GitHub https://github.com/idreoni/ShinyApplication
