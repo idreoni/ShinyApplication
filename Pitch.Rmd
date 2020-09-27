@@ -50,6 +50,8 @@ In the second tab it plots the Wind and Solar Radiation against Ozone values and
 Shiny Air Pollution App
 ========================================================
 
-Shiny https://ildadreoni.shinyapps.io/AirQuality_app/
+The application and documentation can be found at
 
-GitHub https://github.com/idreoni/ShinyApplication
+* Shiny https://ildadreoni.shinyapps.io/AirQuality_app/
+
+* GitHub https://github.com/idreoni/ShinyApplication
